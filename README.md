@@ -14,3 +14,4 @@ This is a frontend project that showcases a comprehensive collection of poems an
 - **Data API**: [PoetryDB](https://poetrydb.org)
 - **Styling**: Tailwind CSS, CSS
 - **Additional Tools**: HyperUI
+ 
