@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { getImage, getDesc } from "../data/dataFunctions";
 
 const Card = ({ name }) => {
   return (
-    <a href={`poet/${name}`} className="group relative block bg-black h-64">
+    <Link to={`poet/${name}`} className="group relative block bg-black h-64">
       <img
         alt=""
         src={getImage(name)}
@@ -19,7 +20,7 @@ const Card = ({ name }) => {
           <p className="text-sm text-white">{getDesc(name)}</p>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 
